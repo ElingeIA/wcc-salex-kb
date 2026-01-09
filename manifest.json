@@ -1,0 +1,45 @@
+{
+  "clients": {
+	"wcc": {
+      "path": "wcc",
+      "files": {
+        "empresa": "empresa.md"
+      },
+      "loadRules": {
+        "default": ["empresa"]
+      }
+    },
+	
+    "inverpaz": {
+      "path": "inverpaz",
+      "files": {
+        "empresa": "empresa.md",
+        "precios": "precios.md",
+        "politicas": "politicas.md",
+        "objeciones": "objeciones.md",
+        "beneficios": "beneficios.md"
+      },
+      "loadRules": {
+        "default": ["empresa"],
+        "pricing": ["empresa", "precios"],
+        "objection": ["empresa", "objeciones"],
+        "policy": ["empresa", "politicas"]
+      }
+    },
+
+    "goldengallery": {
+      "path": "goldengallery",
+      "files": {
+        "empresa": "empresa.md",
+        "catalogo": "catalogo.md",
+        "envios": "envios.md",
+        "devoluciones": "devoluciones.md"
+      },
+      "loadRules": {
+        "default": ["empresa", "catalogo"],
+        "shipping": ["empresa", "envios"],
+        "returns": ["empresa", "devoluciones"]
+      }
+    }
+  }
+}
