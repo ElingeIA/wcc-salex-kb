@@ -4,10 +4,20 @@
       "path": "wcc",
       "files": {
 		"contexto": "contexto.md",
-        "empresa": "empresa.md"
+        "empresa": "empresa.md",
+		"wccsalex": "wccsalex.md",
+        "paywcc": "paywcc.md",
+        "renting": "renting.md",
+		"TaaSwccAdtor": "TaaSwccAdtor.md",
+        "consultoriaIA": "consultoriaIA.md"
       },
       "loadRules": {
-        "default": ["empresa"]
+        "default": ["empresa"],
+		"wccSalex": ["empresa", "wccsalex"],
+        "paywcc": ["empresa", "paywcc"],
+        "renting": ["empresa", "renting"],
+		"TaaSwccAdtor": ["empresa", "TaaSwccAdtor"],
+        "consultoríaIA": ["empresa", "consultoriaIA"]
       }
     },
 	
@@ -46,4 +56,5 @@
     }
   }
 }
+
 
