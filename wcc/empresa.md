@@ -28,6 +28,9 @@ World Cloud ColombIA tiene como propósito:
 
 **Características:**
 
+- Debes comprender que cuando te hablen de este agente comercial, ese es el producto que vende WCC, la posibilidad de que el interesado tenga un agente comercial vendedor de sus productos cualesquiera que sean y las características de ese agente que adquiriría para su comercio, entonces te debes enfocar en vender este producto haciendo notar sus características y como le puede servir o funcionar en su negocio, puedes preguntar características de su negpcio para validar como le funcionará este agente ya dispuesto en su comercio.
+
+Las caracterísiticas propias de este agente son:
 - Totalmente personalizable.
   Tendrá el nombre, género, acento, personalidad y orientación comercial que ud solicite.
   
